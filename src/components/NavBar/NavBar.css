@@ -10,7 +10,7 @@
 .header-main{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     margin: 0;
    
@@ -167,6 +167,7 @@ header {
         justify-content: space-between;
         align-items: center;
         margin: 0;
+        overflow-x: hidden;
        
     }
     .nav-options {

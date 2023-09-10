@@ -1,9 +1,12 @@
 *,
 *::after,
 *::before {
+  overflow-x: hidden;
   box-sizing: border-box;
 }
+
 :root {
+  overflow-x: hidden;
   --pieloscuro: #cb997e;
   --pielclaro: #ddbea9;
   --pielblanco: #ffe8d6;
@@ -18,13 +21,12 @@ html {
   font-size: 62.4%;
   font-family: "Lato", sans-serif;
   color: black;
-  overflow-x: hidden;
+ 
 }
 
 body {
   padding: 0;
   margin: 0;
-  min-width: 100%;
   background: var(--pielblanco);
   /* -webkit-box-shadow: inset 0px 0px 72px 10px rgba(0, 0, 0, 0.34);
   -moz-box-shadow: inset 0px 0px 72px 10px rgba(0, 0, 0, 0.34);
