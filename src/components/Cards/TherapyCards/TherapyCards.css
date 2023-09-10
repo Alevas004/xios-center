@@ -1,0 +1,116 @@
+.Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  background: url(../../../images/TEXTURAS/cards-bg.png);
+  /* background-color: var(--pielclaro); */
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.436);
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0px 0px 72px 10px rgba(109, 109, 109, 0.34);
+  -moz-box-shadow: inset 0px 0px 72px 10px rgba(64, 64, 64, 0.34);
+  box-shadow: inset 0px 0px 40px 10px rgba(171, 166, 120, 0.34);
+  transition: 0.4s ease;
+}
+
+.Card:hover {
+  transform: scale(1.1);
+  background: url(../../../images/TEXTURAS/cards-bg-hover.png);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.21);
+}
+.div-separador_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cards-section h2 {
+  text-align: center;
+  font-size: 4rem;
+  color: rgb(87, 71, 7);
+}
+
+.Card h3 {
+  text-align: center;
+  font-size: 3rem;
+  margin: 1rem 1rem 0 1rem;
+  color: var(--pielclaro);
+  
+}
+/* .Card .long-name {
+  font-size: 2.5rem;
+} */
+.Card p {
+  font-size: 2rem;
+  color: white;
+}
+.subtitle {
+  margin: 0 0 1rem 0;
+}
+.cards-main {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.btn-div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.image img {
+  position: relative;
+  width: 180px;
+  border-radius: 5px;
+  transition: 0.2s linear;
+}
+.image:hover img:first-child {
+  transform: scale(1.1);
+  display: none;
+}
+.image img:nth-child(2) {
+  display: none;
+}
+.image:hover img:nth-child(2) {
+  display: block;
+}
+
+.texts {
+  text-align: center;
+  font-size: 1.3rem;
+}
+.texts span {
+  font-weight: 700;
+  color: var(--pielclaro);
+}
+.texts p {
+  margin: 1rem;
+}
+.texts mark {
+  background: var(--pieloscuro);
+}
+
+.btn-div button {
+  background: var(--verdeclaro);
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  transition: 0.1s linear;
+}
+.btn-div button:hover {
+  background: var(--verdeoscuro);
+  transform: scale(1.1);
+}
+.btn-div button a {
+  text-decoration: none;
+  color: white;
+}
+.btn-div button {
+  font-size: 2rem;
+  color: white;
+}

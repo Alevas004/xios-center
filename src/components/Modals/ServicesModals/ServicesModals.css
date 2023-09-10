@@ -1,0 +1,145 @@
+.modal-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  
+}
+.modal-card h3:first-child {
+  font-size: 3rem;
+  color: var(--pielblanco);
+  margin: 1rem 1rem 0 1rem;
+}
+.modal-texts {
+  text-align: center;
+}
+
+.modal-btn-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.modal-btn-div button {
+  height: 40px;
+  width: 25%;
+  border-radius: 10px;
+  border: 2px solid var(--pieloscuro);
+  background: var(--pielblanco); 
+  margin: 2rem 0 0 0;
+}
+.modal-btn-div button a {
+  text-decoration: none;
+  color: var(--pieloscuro);
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 2.3rem;
+}
+.modal-btn-div button:hover{
+  background-color: white;
+}
+
+.hook {
+  text-align: center;
+  color: var(--pielblanco);
+  font-size: 2.5rem;
+  margin: 1rem 1rem 5rem 1rem;
+}
+.modal-subtitle {
+  margin: 0 0 1rem 0;
+  font-size: 2rem;
+}
+.modal-descriptions{
+  margin: 2rem 4rem;
+}
+.modal-des span {
+  font-size: 2rem;
+}
+
+.modal-beneficios {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0 3rem;
+}
+
+.modal-time-domi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.modal-time-domi span {
+  color: var(--pielblanco);
+  font-size: 2rem;
+}
+.modal-time-domi p {
+  font-size: 1.5rem;
+}
+.modal-time-domi mark {
+  background: var(--pieloscuro);
+  color: rgb(255, 255, 255);
+
+  
+}
+.modal-bp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.modal-bp span {
+  font-size: 2.5rem;
+  font-family: Poppins;
+  color: var(--pielblanco);
+}
+.modal-bp p {
+  font-size: 1.7rem;
+  margin: 0 0 1rem 0;
+}
+.modal-des {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.modal-des span {
+  font-size: 2.5rem;
+  font-family: Poppins;
+  color: var(--pielblanco);
+  font-family: 700;
+  padding: 0;
+  margin: 0;
+  
+}
+.modal-des p {
+  font-size: 1.7rem;
+  margin: 0 0 1rem 0;
+}
+.modal-time-domi p {
+  margin: 0.5rem 0;
+  padding: 0;
+}
+.modal-image img {
+  position: relative;
+  width: 500px;
+  margin: 1rem 0 1rem 0;
+  border-radius: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .modal-image img {
+    position: relative;
+    width: 300px;
+    margin: 1rem 0 1rem 0;
+    border-radius: 50px;
+  }
+
+  
+}

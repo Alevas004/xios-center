@@ -1,0 +1,69 @@
+.sectionA-main {
+  width: 350px;
+  height: 500px;
+  background: url(../../../../images/TEXTURAS/cards-bg.png);
+  background-size: cover;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem;
+  
+}
+.sectionA-main:hover {
+  background-image: url(../../../../images/TEXTURAS/cards-bg-hover.png);
+
+}
+.sectionA-view {
+  width: 100%;
+}
+.sectionA-titles h3 {
+  text-align: center;
+  margin: 1rem 1rem 0 1rem;
+}
+
+.sectionA-titles p {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+.sectionA-titles h3 {
+  font-size: 3rem;
+  color: var(--pielblanco)
+}
+.sectionA-texts {
+  margin: 1rem 3rem;
+  text-align: center;
+}
+.sectionA-texts p {
+  font-size: 2rem;
+  color: white;
+}
+
+.sectionA-btn-div button {
+  background: var(--verdeclaro);
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  transition: 0.1s linear;
+  font-size: 2rem;
+  color: white;
+}
+.sectionA-btn-div button:hover {
+  background: var(--verdeoscuro);
+  transform: scale(1.1);
+}
+
+.sectionA-btn-div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.sectionA-btn-div button a {
+  text-decoration: none;
+  color: white;
+}

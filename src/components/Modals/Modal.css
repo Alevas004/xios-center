@@ -1,0 +1,48 @@
+.modal {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.701);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal.is-open {
+  display: flex;
+}
+
+.modal-container {
+  position: relative;
+  background-image: url(../../images/TEXTURAS/modals-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 1rem;
+  min-width: 500px;
+  max-width: 600px;
+  min-height: 600px;
+  max-height: 700px;
+  overflow-y: auto;
+}
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 5rem;
+  background-color: transparent;
+  border: none;
+  transition: 0.2s linear;
+}
+.modal-close:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+  .modal {
+    
+    
+  }
+}

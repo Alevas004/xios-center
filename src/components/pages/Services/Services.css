@@ -1,0 +1,21 @@
+.services-main {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+  margin: 20rem 10rem 10rem 10rem;
+}
+/* .section-masaje {
+  background-image: url(../../../images/TEXTURAS/services-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .section-masaje{
+    background-image: url(../../../images/TEXTURAS/services-bg-movil.png);
+    background-repeat: repeat-y;
+    background-size: contain;
+    
+  }
+} */

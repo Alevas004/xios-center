@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+:root {
+  --pieloscuro: #cb997e;
+  --pielclaro: #ddbea9;
+  --pielblanco: #ffe8d6;
+  --verdegris: #b7b7a4;
+  --verdeclaro: #a5a58d;
+  --verdeoscuro: #6b705c;
+  --gradient1: linear-gradient(90deg, var(--pielblanco), var(--pielclaro));
+  --gradient2: linear-gradient(90deg, var(--verdeclaro), var(--verdeoscuro));
+  --gradient3: linear-gradient(360deg, var(--pieloscuro), var(--pielblanco))
+}
+html {
+  font-size: 62.4%;
+  font-family: "Lato", sans-serif;
+  color: black;
+  overflow-x: hidden;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  min-width: 100%;
+  background: var(--pielblanco);
+  /* -webkit-box-shadow: inset 0px 0px 72px 10px rgba(0, 0, 0, 0.34);
+  -moz-box-shadow: inset 0px 0px 72px 10px rgba(0, 0, 0, 0.34);
+  box-shadow: inset 0px 0px 72px 10px rgba(0, 0, 0, 0.34); */
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+} 
+
+a {
+  text-decoration: none;
+}
