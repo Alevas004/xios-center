@@ -1,5 +1,5 @@
 import "./ServicesModals.css"
-import drenaje_hover from "../../../images/cards/Masaje_drenajelinfatico_hover.gif";
+import drenaje_hover from "../../../images/cards/masaje_drenajelinfatico_hover.gif";
 
 
 export const Dlm = () => {

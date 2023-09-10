@@ -4,7 +4,7 @@ import { Dlm } from "../../../Modals/ServicesModals/DLM"
 import { Modal } from "../../../Modals/Modal"
 import { useModal } from "../../../Hooks/useModal";
 import drenaje from "../../../../images/cards/masaje_drenajelinfatico.png"
-import drenaje_hover from "../../../../images/cards/Masaje_drenajelinfatico_hover.gif";
+import drenaje_hover from "../../../../images/cards/masaje_drenajelinfatico_hover.gif";
 
 
 export const SectionA = () => {

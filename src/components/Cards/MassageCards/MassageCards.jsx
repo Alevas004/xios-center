@@ -5,12 +5,12 @@ import { Mpos } from "../../Modals/ServicesModals/MPOS";
 import { Mpre } from "../../Modals/ServicesModals/MPRE";
 import { Mt } from "../../Modals/ServicesModals/MT";
 import { Mthai } from "../../Modals/ServicesModals/MTHAI";
-import terapeutico from "../../../images/cards/Masaje_terapeutico.webp";
+import terapeutico from "../../../images/cards/masaje_terapeutico.webp";
 import masaje_prenatal from "../../../images/cards/masaje_prenatal.png"
 import postparto from "../../../images/cards/masaje_postparto.png"
 import drenaje from "../../../images/cards/masaje_drenajelinfatico.png"
 import thai from "../../../images/cards/masaje_thai.png"
-import terapeutico_hover from "../../../images/cards/Masaje_terapeutico_hover.gif"
+import terapeutico_hover from "../../../images/cards/masaje_terapeutico_hover.gif"
 import drenaje_hover from "../../../images/cards/masaje_drenajelinfatico_hover.gif"
 import postparto_hover from "../../../images/cards/masaje_postparto_hover.gif"
 import prenatal_hover from "../../../images/cards/masaje_prenatal_hover.gif"

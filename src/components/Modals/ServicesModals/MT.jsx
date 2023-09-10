@@ -1,5 +1,5 @@
 import "./ServicesModals.css";
-import terapeutico_hover from "../../../images/cards/Masaje_terapeutico_hover.gif"
+import terapeutico_hover from "../../../images/cards/masaje_terapeutico_hover.gif"
 
 export const Mt = () => {
   return (
