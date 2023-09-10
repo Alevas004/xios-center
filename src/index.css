@@ -1,7 +1,6 @@
 *,
 *::after,
 *::before {
-  overflow-x: hidden;
   box-sizing: border-box;
 }
 
@@ -21,7 +20,7 @@ html {
   font-size: 62.4%;
   font-family: "Lato", sans-serif;
   color: black;
- 
+  
 }
 
 body {
