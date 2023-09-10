@@ -1,4 +1,4 @@
-// import craneo_hover from "../../../images/cards/craneo_hover.gif"
+import craneo_hover from "../../../images/cards/terapia_craneofacial.png"
 import "./ServicesModals.css"
 
 
@@ -8,7 +8,7 @@ export const Craneo = () => {
       <h3>Al estilo Lavanda</h3>
       <p className="modal-subtitle">(Terapia Craneofacial)</p>
       <div className="modal-image">
-        {/* <img src={craneo_hover} alt="imagen de la terapia" /> */}
+        <img src={craneo_hover} alt="imagen de la terapia" />
       </div>
       <div className="modal-texts">
         <div className="modal-descriptions">

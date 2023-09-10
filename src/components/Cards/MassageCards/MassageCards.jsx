@@ -10,10 +10,10 @@ import masaje_prenatal from "../../../images/cards/masaje_prenatal.png"
 import postparto from "../../../images/cards/masaje_postparto.png"
 import drenaje from "../../../images/cards/masaje_drenajelinfatico.png"
 import thai from "../../../images/cards/masaje_thai.png"
-import terapeutico_hover from "../../../images/cards/masaje_terapeutico_hover.gif"
-import drenaje_hover from "../../../images/cards/masaje_drenajelinfatico_hover.gif"
-import postparto_hover from "../../../images/cards/masaje_postparto_hover.gif"
-import prenatal_hover from "../../../images/cards/masaje_prenatal_hover.gif"
+import terapeutico_hover from "../../../images/cards/masaje_terapeutico_hover.mp4"
+import drenaje_hover from "../../../images/cards/masaje_drenajelinfatico_hover.mp4"
+import postparto_hover from "../../../images/cards/masaje_postparto_hover.mp4"
+import prenatal_hover from "../../../images/cards/masaje_prenatal_hover.mp4"
 
 
 
@@ -42,7 +42,7 @@ export const MassageCards = () => {
                 src={drenaje}
                 alt="imagen de la terapia"
               />
-              <img src={drenaje_hover} alt="" />
+              <video src={drenaje_hover} autoPlay loop controls type="video/mp4"></video>
             </div>
             <div className="texts">
               <p>
@@ -79,7 +79,7 @@ export const MassageCards = () => {
             <p className="subtitle">(Masaje terapeutico)</p>
             <div className="image">
               <img src={terapeutico} alt="imagen de la terapia" />
-              <img src={terapeutico_hover} alt="" />
+              <video src={terapeutico_hover} autoPlay loop controls type="video/mp4"></video>
             </div>
             <div className="texts">
               <p>
@@ -116,7 +116,7 @@ export const MassageCards = () => {
             <p className="subtitle">(Masaje Tailandés)</p>
             <div className="image">
               <img src={thai} alt="imagen de la terapia" />
-              <img src={thai} alt="imagen de la terapia" />
+              <video src={thai} autoPlay loop controls type="video/mp4" ></video>
             </div>
             <div className="texts">
               <p>
@@ -153,7 +153,7 @@ export const MassageCards = () => {
           <p className="subtitle">(Masaje prenatal)</p>
           <div className="image">
             <img src={masaje_prenatal} alt="imagen de la terapia" />
-            <img src={prenatal_hover} alt="" />
+            <video src={prenatal_hover} autoPlay loop controls type="video/mp4"></video>
           </div>
           <div className="texts">
             <p>
@@ -189,7 +189,9 @@ export const MassageCards = () => {
           <p className="subtitle">(Masaje postparto)</p>
           <div className="image">
             <img src={postparto} alt="imagen de la terapia" />
-            <img src={postparto_hover} alt="" />
+            <video autoPlay loop controls>
+              <source src={postparto_hover} type="video/mp4"/>
+            </video>
           </div>
           <div className="texts">
             <p>

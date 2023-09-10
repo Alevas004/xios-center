@@ -1,5 +1,5 @@
 import "./ServicesModals.css";
-import watsu_hover from "../../../images/cards/watsu_hover.gif"
+import watsu_hover from "../../../images/cards/watsu_hover.mp4"
 
 export const Watsu = () => {
   return (
@@ -7,7 +7,7 @@ export const Watsu = () => {
       <h3>Terapia Agua</h3>
       <p className="modal-subtitle">(Terapia Watsu)</p>
       <div className="modal-image">
-        <img src={watsu_hover} alt="imagen de la terapia" />
+        <video src={watsu_hover} autoPlay loop controls type="video/mp4"></video>
       </div>
       <div className="modal-texts">
         <div className="modal-descriptions">

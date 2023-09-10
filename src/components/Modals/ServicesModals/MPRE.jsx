@@ -1,5 +1,5 @@
 import "./ServicesModals.css";
-import prenatal_hover from "../../../images/cards/masaje_prenatal_hover.gif"
+import prenatal_hover from "../../../images/cards/masaje_prenatal_hover.mp4"
 
 
 export const Mpre = () => {
@@ -8,7 +8,7 @@ export const Mpre = () => {
       <h3>Serenidad Maternal</h3>
       <p className="modal-subtitle">(Masaje prenatal)</p>
       <div className="modal-image">
-        <img src={prenatal_hover} alt="imagen de la terapia" />
+        <video src={prenatal_hover} autoPlay loop controls type="video/mp4"></video>
       </div>
       <div className="modal-texts">
         <div className="modal-descriptions">

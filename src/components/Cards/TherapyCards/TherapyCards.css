@@ -63,7 +63,8 @@
   align-items: center;
   margin-bottom: 1.5rem;
 }
-.image img {
+.image img,
+.image video {
   position: relative;
   width: 180px;
   border-radius: 5px;
@@ -73,12 +74,17 @@
   transform: scale(1.1);
   display: none;
 }
-.image img:nth-child(2) {
+.image video {
   display: none;
 }
-.image:hover img:nth-child(2) {
+.image:hover video {
   display: block;
 }
+/* .image video::-webkit-media-controls {
+  
+  visibility: hidden;
+  
+} */
 
 .texts {
   text-align: center;

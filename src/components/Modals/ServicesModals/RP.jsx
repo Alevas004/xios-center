@@ -1,5 +1,5 @@
 import "./ServicesModals.css";
-import reflexodologia_hover from "../../../images/cards/terapia_reflexologiapodal_hover.gif"
+import reflexodologia_hover from "../../../images/cards/terapia_reflexologiapodal_hover.mp4"
 
 export const Rp = () => {
   return (
@@ -7,7 +7,7 @@ export const Rp = () => {
       <h3>Reflexología Energética</h3>
       <p className="modal-subtitle">(Reflexología Podal)</p>
       <div className="modal-image">
-        <img src={reflexodologia_hover} alt="imagen de la terapia" />
+        <video src={reflexodologia_hover} autoPlay loop controls type="video/mp4"></video>
       </div>
       <div className="modal-texts">
         <div className="modal-descriptions">

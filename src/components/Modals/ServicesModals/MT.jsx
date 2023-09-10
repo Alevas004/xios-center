@@ -1,5 +1,5 @@
 import "./ServicesModals.css";
-import terapeutico_hover from "../../../images/cards/masaje_terapeutico_hover.gif"
+import terapeutico_hover from "../../../images/cards/masaje_terapeutico_hover.mp4"
 
 export const Mt = () => {
   return (
@@ -7,7 +7,7 @@ export const Mt = () => {
       <h3>Masaje Armonía</h3>
       <p className="modal-subtitle">(Masaje Terapéutico)</p>
       <div className="modal-image">
-        <img src={terapeutico_hover} alt="imagen de la terapia" />
+        <video src={terapeutico_hover} autoPlay loop controls type="video/mp4"></video>
       </div>
       <div className="modal-texts">
         <div className="modal-descriptions">

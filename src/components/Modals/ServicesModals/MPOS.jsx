@@ -1,5 +1,5 @@
 import "./ServicesModals.css";
-import postparto_hover from "../../../images/cards/masaje_postparto_hover.gif"
+import postparto_hover from "../../../images/cards/masaje_postparto_hover.mp4"
 
 export const Mpos = () => {
   return (
@@ -7,7 +7,7 @@ export const Mpos = () => {
       <h3>Reconexión mente-cuerpo postparto</h3>
       <p className="modal-subtitle">(Masaje postparto)</p>
       <div className="modal-image">
-        <img src={postparto_hover} alt="imagen de la terapia" />
+        <video src={postparto_hover} autoPlay loop controls type="video/mp4"></video>
       </div>
       <div className="modal-texts">
         <div className="modal-descriptions">

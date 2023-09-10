@@ -4,7 +4,7 @@ import { Dlm } from "../../../Modals/ServicesModals/DLM"
 import { Modal } from "../../../Modals/Modal"
 import { useModal } from "../../../Hooks/useModal";
 import drenaje from "../../../../images/cards/masaje_drenajelinfatico.png"
-import drenaje_hover from "../../../../images/cards/masaje_drenajelinfatico_hover.gif";
+import drenaje_hover from "../../../../images/cards/masaje_drenajelinfatico_hover.mp4";
 
 
 export const SectionA = () => {
@@ -19,7 +19,7 @@ export const SectionA = () => {
           </div>
           <div className="image">
             <img src={drenaje} alt="imagen de la terapia" />
-            <img src={drenaje_hover} alt="" />
+            <video src={drenaje_hover} autoPlay loop controls></video>
           </div>
           <div className="sectionA-texts">
             <p>

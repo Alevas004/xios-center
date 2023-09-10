@@ -9,9 +9,9 @@ import watsu from "../../../images/cards/watsu.png";
 import gimnasiapasiva from "../../../images/cards/terapia_gimnasiapasiva.png";
 import craneo from "../../../images/cards/terapia_craneofacial.png";
 import podal from "../../../images/cards/terapia_reflexologiapodal.png";
-import pasiva_hover from "../../../images/cards/terapia_gimnasiapasiva_hover.gif";
-import reflexodologia_hover from "../../../images/cards/terapia_reflexologiapodal_hover.gif";
-import watsu_hover from "../../../images/cards/watsu_hover.gif";
+import pasiva_hover from "../../../images/cards/terapia_gimnasiapasiva_hover.mp4";
+import reflexodologia_hover from "../../../images/cards/terapia_reflexologiapodal_hover.mp4";
+import watsu_hover from "../../../images/cards/watsu_hover.mp4";
 
 export const TherapyCards = () => {
   const [isOpenGP, openModalGP, closeModalGP] = useModal();
@@ -29,7 +29,7 @@ export const TherapyCards = () => {
             <p className="subtitle">(Recuperación Funcional)</p>
             <div className="image">
               <img src={gimnasiapasiva} alt="imagen de la terapia" />
-              <img src={pasiva_hover} alt="" />
+              <video src={pasiva_hover} autoPlay loop controls type="video/mp4"></video>
             </div>
             <div className="texts">
               <p>
@@ -65,7 +65,7 @@ export const TherapyCards = () => {
             <p className="subtitle">(Terapia Watsu)</p>
             <div className="image">
               <img src={watsu} alt="imagen de la terapia" />
-              <img src={watsu_hover} alt="" />
+              <video src={watsu_hover} autoPlay loop controls type="video/mp4"></video>
             </div>
             <div className="texts">
               <p>
@@ -102,7 +102,7 @@ export const TherapyCards = () => {
             <p className="subtitle">(Reflexología Podal)</p>
             <div className="image">
               <img src={podal} alt="imagen de la terapia" />
-              <img src={reflexodologia_hover} alt="" />
+              <video src={reflexodologia_hover} autoPlay loop controls type="video/mp4" ></video>
             </div>
             <div className="texts">
               <p>
@@ -139,7 +139,7 @@ export const TherapyCards = () => {
             <p className="subtitle">(Terapia Craneofacial)</p>
             <div className="image">
               <img src={craneo} alt="imagen de la terapia" />
-              <img src={craneo} alt="imagen de la terapia" />
+              {/* <img src={craneo} alt="imagen de la terapia" /> */}
             </div>
             <div className="texts">
               <p>

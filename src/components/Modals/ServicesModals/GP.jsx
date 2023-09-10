@@ -1,5 +1,5 @@
 import "./ServicesModals.css";
-import pasiva_hover from "../../../images/cards/terapia_gimnasiapasiva_hover.gif"
+import pasiva_hover from "../../../images/cards/terapia_gimnasiapasiva_hover.mp4"
 
 export const Gp = () => {
   return (
@@ -7,7 +7,7 @@ export const Gp = () => {
       <h3>Gimnasia Pasiva</h3>
       <p className="modal-subtitle">(Recuperación Funcional)</p>
       <div className="modal-image">
-        <img src={pasiva_hover} alt="imagen de la terapia" />
+        <video src={pasiva_hover} autoPlay loop controls type="video/mp4"></video>
       </div>
       <div className="modal-texts">
         <div className="modal-descriptions">

@@ -1,5 +1,5 @@
 import "./ServicesModals.css"
-import drenaje_hover from "../../../images/cards/masaje_drenajelinfatico_hover.gif";
+import drenaje_hover from "../../../images/cards/masaje_drenajelinfatico_hover.mp4";
 
 
 export const Dlm = () => {
@@ -8,7 +8,7 @@ export const Dlm = () => {
       <h3>Fluidez Linfoenergética</h3>
       <p className="modal-subtitle">(Drenaje Linfático Manual)</p>
       <div className="modal-image">
-        <img src={drenaje_hover} alt="" />
+        <video src={drenaje_hover} autoPlay loop controls type="video/mp4"></video>
       </div>
       <div className="modal-texts">
         <div className="modal-descriptions">
